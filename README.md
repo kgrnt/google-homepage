@@ -1,0 +1,1 @@
+The goal of this project is to put into practice the HTML and CSS skills learned so far in The Odin Project curriculum.
