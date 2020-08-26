@@ -5,14 +5,18 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div id="logo">
-            <img id="logo" src="images/googlelogo.png">
-        </div>
-        <form id="search">
-            <input type="search" id="search-box">
-            <input type="button" id="search-btn" value="Google Search">
-            <input type="button" id="lucky-btn" value="I'm Feeling Lucky">
-        </form>
+        <section id="main">
+            <div>
+                <img id="logo" src="images/googlelogo.png">
+            </div>
+            <form id="search">
+                <input type="search" id="search-box">
+                <section id="buttonwrapper">
+                    <input type="submit" id="search-btn" value="Google Search">
+                    <input type="submit" id="lucky-btn" value="I'm Feeling Lucky">
+                </section>
+            </form>
+        </section>
         <nav id="topnav">
             <ul id="topleft">
                 <li><a href="">About</a></li>
@@ -31,11 +35,21 @@
                 </li>
                 <li>
                     <a href="">
-                        <div id="three-by-three"></div>
+                        <div id="three-by-three">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </a>
                 </li>
                 <li>
-                    <input type="button" id="sign-in" value="sign in">
+                    <input type="button" id="sign-in" value="Sign in">
                 </li>
             </ul>
         </nav>
